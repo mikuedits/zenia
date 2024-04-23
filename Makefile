@@ -8,3 +8,5 @@ run:
 .PHONY: test
 test:
 	PYTHONPATH=. py.test --verbose -s
+docke_build:
+	docker built -t hello-world-printer .
